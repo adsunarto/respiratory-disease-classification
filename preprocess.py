@@ -4,7 +4,7 @@ import os
 import cv2
 import random
 
-DATADIR = "../images" # directory containing categorized folders (labels)
+DATADIR = "./images" # directory containing categorized folders (labels)
 CATEGORIES = ["covid-19", "sars", "ards", "pneumocystis", "streptococcus","no-finding"]
 
 IMG_SIZE = 60
